@@ -47,7 +47,7 @@ ggplot(data = mpg) +
   facet_grid(drv ~ cyl) # if just on --> replace with .
 #
 #=== GEOM OBJECTS ===
-#geom_point, geom_smooth, geom_bar, geom_bar, ...
+#geom_point, geom_smooth, geom_bar, geom_bar, geom_freqpoly, ...
 #
 # EXAMPLE for smooth
 ggplot(data = mpg) + 
